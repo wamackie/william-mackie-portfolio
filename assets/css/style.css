@@ -65,6 +65,10 @@ body {
     padding: 20px;
 }
 
+#selfPortrait {
+  border: 1px solid black;
+}
+
 #biography {
     background-color: white;
     border: 1px solid black;
