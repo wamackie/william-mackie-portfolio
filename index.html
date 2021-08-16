@@ -4,6 +4,10 @@
     <head>
         <meta charset="UTF-8" />
         <title>Portfolio</title>
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
@@ -36,7 +40,7 @@
                 <img src="./assets/images/one.jpg" style="width:553px;height:300.3" id="selfPortrait">
             </div>
             <div id="biography">
-                <p>Hello! My name is William Mackie. I live in Orlando, Florida. I am a senior at Florida Gulf Coast University majoring in Computer Information Systems. I am also an aspiring Web Developer currently enrolled in the University of Central Florida's Full Stack Web Developer program.</p>
+                <p>Hello! My name is William Mackie. I live in Orlando, Florida. I'm currently a senior at Florida Gulf Coast University majoring in Computer Information Systems. I'm also an aspiring Web Developer currently enrolled in the University of Central Florida's Full Stack Web Developer bootcamp.</p>
             </div>
         </div>
 
@@ -45,62 +49,80 @@
             <section id="projects" class="projects">
                 <h2 class="section-title">Projects</h2>
                 <div class="content">
-                    <ul>
-                        <li>
-                            <h3>Create-A-Date</h3>
-                            <a href="https://electrolion.github.io/Create-a-date/">
-                                <img id="create-a-date-img" src="./assets/images/four.png" style="width:553px;height:300.3" alt="Create-A-Date Date Planning Scheduler">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="projectHeadings">Create-A-Date</h3>
+                            <a href="https://wamackie.github.io/create-a-date/">
+                                <img class="project-image" id="create-a-date-img" src="./assets/images/four.png" style="width:575.2px;height:312" alt="Create-A-Date Date Planning Scheduler">
                             </a>
-                        </li>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <li>
-                            <h3>Horiseon</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <h3 class="projectHeadingsLower">Weather Dashboard</h3>
+                            <a href="https://wamackie8456.github.io/weather-dashboard/">
+                                <img class="project-image" id="weather-dashboard-img" src="./assets/images/weather.png" style="width:395.39px;height:214.71" alt="Horiseon Search Engine Optimization Online Reputation Management Social Media Marketing Lead Generation Brand Awareness Cost Management">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="projectHeadingsLower">Work Day Scheduler</h3>
+                            <a href="https://wamackie8456.github.io/work-day-scheduler/">
+                                <img class="project-image" id="work-day-scheduler-img" src="./assets/images/scheduler.png" style="width:395.39px;height:214.71" alt="Horiseon Search Engine Optimization Online Reputation Management Social Media Marketing Lead Generation Brand Awareness Cost Management">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="projectHeadingsLower">Script Quiz</h3>
+                            <a href="https://wamackie8456.github.io/script-test-quiz/">
+                                <img class="project-image" id="script-quiz-img" src="./assets/images/scriptquiz.png" style="width:395.39px;height:214.71" alt="Horiseon Search Engine Optimization Online Reputation Management Social Media Marketing Lead Generation Brand Awareness Cost Management">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <h3 class="projectHeadingsLower">Password Generator</h3>
+                            <a href="https://wamackie.github.io/password-generator/">
+                                <img class="project-image" id="password-generator-img" src="./assets/images/passgen.png" style="width:395.39px;height:214.71" alt="Horiseon Search Engine Optimization Online Reputation Management Social Media Marketing Lead Generation Brand Awareness Cost Management">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="projectHeadingsLower">Horiseon</h3>
                             <a href="https://wamackie8456.github.io/HoriseonWAM/">
-                                <img id="horiseon-img" src="./assets/images/two.jpg" style="width:359.45px;height:195.195" alt="Horiseon Search Engine Optimization Online Reputation Management Social Media Marketing Lead Generation Brand Awareness Cost Management">
+                                <img class="project-image" id="horiseon-img" src="./assets/images/two.jpg" style="width:395.39px;height:214.71" alt="Horiseon Search Engine Optimization Online Reputation Management Social Media Marketing Lead Generation Brand Awareness Cost Management">
                             </a>
-                        </li>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <li>
-                            <h3>Run Buddy</h3>
-                            <a href="https://wamackie8456.github.io/run-buddy/">
-                                <img id="run-buddy-img" src="./assets/images/three.jpg" style="width:359.45px;height:195.195" alt="Run Buddy Personal Training Sign Up Website">
-                            </a>
-                        </li>
-                    </ul>
+                        </div>
+                        <div class="col-4">
+                                <h3 class="projectHeadingsLower">Run Buddy</h3>
+                                <a href="https://wamackie8456.github.io/run-buddy/">
+                                    <img class="project-image" id="run-buddy-img" src="./assets/images/three.jpg" style="width:395.39px;height:214.71" alt="Run Buddy Personal Training Sign Up Website">
+                                </a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section id="contact">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="contact-title">Contact</h2>
                 <div class="contact">
                     <div class="contact-info">
                         <div class="socials">
-                            <h3>Social Media</h3> 
-                            <ul>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/william-mackie-2521b4211/">
-                                        <img id="linkedin-img" src="./assets/images/linkedin.png" style="width:50px;height:50px" alt="LinkedIn Logo" />
-                                    </a>
-                                </li>
-                                <li>
+                            <div class="social row">
+                                <div class="col-4">
                                     <a href="https://github.com/wamackie8456">
-                                        <img id="github-img" img src="./assets/images/github.png" style="width:120px;height:50px" alt="Github Logo" />
+                                        <img class="social-img" id="github-img" img src="./assets/images/github.png" style="width:120px;height:50px" alt="Github Logo" />
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="col-4">
+                                    <a href="https://www.linkedin.com/in/william-mackie-2521b4211/">
+                                        <img class="social-img" id="linkedin-img" src="./assets/images/linkedin.png" style="width:50px;height:50px" alt="LinkedIn Logo" />
+                                    </a>
+                                </div>
+                                <div class="col-4">
                                     <a href="https://www.instagram.com/wam1124/">
-                                        <img id="instagram-img" src="./assets/images/instagram.png" style="width:50px;height:50px" alt="Instagram Logo">
+                                        <img class="social-img" id="instagram-img" src="./assets/images/instagram.png" style="width:50px;height:50px" alt="Instagram Logo">
                                     </a>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
-
                         <div class="contact-form">
                             <h3>Contact Me</h3>
                             <form>
@@ -116,7 +138,7 @@
                                 <button type="submit">Submit</button>
                             </form>
                         </div>
-                    </div>
+                    
                 </div>
             </section>
 
