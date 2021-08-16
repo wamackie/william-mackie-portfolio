@@ -4,4 +4,4 @@ This website is my first attempt at creating a website from scratch. It will con
 
 ## Website
 
-https://wamackie8456.github.io/william-mackie-portfolio/
+https://wamackie.github.io/william-mackie-portfolio/
